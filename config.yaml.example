@@ -1,0 +1,9 @@
+# aituber_prompt.py 設定ファイル
+# このファイルが存在する場合、DEFAULT_CFG を上書きします。
+# 不要な項目はコメントアウトしてください。
+
+api_base: "http://localhost:1234/v1"
+model: "qwen3.5-122b-a10b"
+api_key: ""          # ローカルLLMの場合は空のまま
+temperature: 0.7
+max_tokens: 4096
